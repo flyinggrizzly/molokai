@@ -83,13 +83,13 @@ hi Special         guifg=#66D9EF guibg=bg      gui=italic
 hi SpecialKey      guifg=#888A85               gui=italic
 if has("spell")
   hi clear SpellBad
-  hi SpellBad guisp=#FF0000 gui=underline
+  hi SpellBad guisp=#FF0000 gui=underline cterm=underline
   hi clear SpellRare
-  hi SpellRare guisp=#FFFFFF gui=underline
+  hi SpellRare guisp=#FFFFFF gui=underline cterm=underline
   hi clear SpellCap
-  hi SpellCap guisp=#7070F0 gui=underline
+  hi SpellCap guisp=#7070F0 gui=underline cterm=underline
   hi clear SpellLocal
-  hi SpellLocal guisp=#FFFFFF gui=underline
+  hi SpellLocal guisp=#FFFFFF gui=underline cterm=underline
 endif
 hi Statement       guifg=#F92672               gui=bold
 hi StatusLine      guifg=#455354 guibg=fg
